@@ -1,0 +1,35 @@
+#cy {
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: lightgrey;
+    height: 100%;
+}
+
+#cy-container {
+    height: 720px;
+}
+
+
+#model-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+    /* opacity: 0.5; */
+    overflow: hidden;
+    pointer-events: none;
+}
+
+#model-overlay-infobox {
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    margin: 200px auto;
+    padding: 2em;
+    vertical-align: middle;
+    z-index: 99999;
+    color: black;
+    opacity: 1;
+}
